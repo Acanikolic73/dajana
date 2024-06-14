@@ -1,0 +1,210 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background: #7077A1;
+}
+.header {
+    background: #424769;
+    display: flex;
+    position: relative;
+    height: 120px;
+}
+h1
+{
+    color: #f0e8e2;
+    position: absolute;
+    height: 100px;
+    width: 700px;
+    top: 20px;
+    margin-left: 20px;
+}
+.logo {
+    flex-grow: 1;
+}
+.kontakt {
+    flex-grow: 1;
+    text-align: right;
+}
+.kontakt img {
+    margin-top: 40px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    filter: invert(.9);
+    transition: all .3s ease;
+}
+.kontakt img:hover
+{
+    filter: invert(.7);
+}
+.meni {
+    display: flex;
+    height: 50px;
+    background-color: #2D3250;
+}
+.page {
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+    transition: all .3s ease;
+}
+.page1 {
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    transition: all .3s ease;
+}
+.page1:hover .lista {
+    display: block;
+}
+.lista {
+    width: 100%;
+    box-shadow: inset 3px 0 0 #f0e8e2;
+    display: none;
+    position: absolute;
+    background-color: #2D3250;
+    z-index: 1;
+    left: 0;
+    top: 100%;
+}
+li a {
+    text-align: center;
+    width: 100%;
+}
+.page:hover {
+    box-shadow: inset 0 -3px 0 #f0e8e2;
+}
+.page1:hover {
+    box-shadow: inset 0 -3px 0 #f0e8e2;
+}
+.page a {
+    color: #f0e8e2;
+    text-decoration: none;
+}
+.page1 a {
+    color: #f0e8e2;
+    text-decoration: none;
+}
+.lista a {
+    color: #f0e8e2;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    height: 30px;
+    width: 100%;
+    transition: all .3s ease;
+}
+li:hover
+{
+    background: #7077A1;
+    box-shadow: inset 3px 0 0 #f0e8e2;
+}
+footer
+{
+    background: #424769;
+    margin-top: 80px;
+    height: 200px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    color: #f0e8e2;
+    text-align: center;
+}
+
+.nas
+{
+    background-color: #424769;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    color: #f0e8e2;
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.kurs {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.kurs h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.kurs hr {
+    border: 1px solid #ddd;
+}
+
+.kurs img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.kurs p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.kurs button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7077A1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.kurs button:hover {
+    background-color: #424769;
+}
+
+.Aca {
+    position: relative;
+    padding-left: 10px;
+}
+
+.Aca::before {
+    content: "\00B7"; 
+    position: absolute;
+    left: 0;
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 65px;
+    margin-right: 65px;
+}
+.kraj {
+    margin-top:30px;
+    display: flex;
+}
+.dolelevo {
+    margin-left: 30px;
+    flex-grow: 1;
+}
+.doledesno {
+    margin-right: 30px;
+    flex-grow: 1;
+}
